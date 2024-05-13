@@ -7,6 +7,7 @@ body
 {
     text-indent:-9999px;
     background: url('logo.PNG');
+    background-image: url('logo.PNG');
     height: 250px;
     width: 250px;
 }
