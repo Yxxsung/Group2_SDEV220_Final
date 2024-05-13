@@ -3,6 +3,15 @@ body
     background-color: lightblue;
 }
 
+.logo
+{
+    text-indent: -999999px;
+    background: url('logo.png');
+    height: 426px;
+    width: 426px;
+
+}
+
 h1
 {
     background-color: cadetblue;
