@@ -24,16 +24,6 @@
 			text-align: center;
 		}
 
-		/* Style the "Buy Now" button */
-		.buy-now-button {
-			display: block;
-			margin-top: 10px;
-			background-color: #007bff;
-			color: #fff;
-			text-decoration: none;
-			padding: 5px 10px;
-			border-radius: 5px;
-		}
 	</style>
 </head>
 <body>
@@ -45,7 +35,6 @@
 				<h2>Mountain Dew Baja Blast 20oz</h2>
 				<p>A tropical lime-flavored soft drink created for Taco Bell Resturants</p>
 				<p>Price: $2.43</p>
-				<a href="#" class="buy-now-button">Buy Now</a>
 				<a class="buy-now-button" href="{% url 'cart:add_to_cart' product.id %}">Add to Cart</a>
 
 			</li>
@@ -54,7 +43,6 @@
 				<h2>Biore Charcoal Face Wash</h2>
 				<p>A deep cleansing face wash with charcoal</p>
 				<p>Price: $8.99</p>
-				<a href="#" class="buy-now-button">Buy Now</a>
 				<a class="buy-now-button" href="{% url 'cart:add_to_cart' product.id %}">Add to Cart</a>
 
 			</li>
@@ -63,7 +51,6 @@
 				<h2>Dove Advanced Dry Shampoo</h2>
 				<p>Dry Shampoo provided volume with a classic unscented theme</p>
 				<p>Price: $8.99</p>
-				<a href="#" class="buy-now-button">Buy Now</a>
 				<a class="buy-now-button" href="{% url 'cart:add_to_cart' product.id %}">Add to Cart</a>
 			
 			</li>
@@ -72,7 +59,6 @@
 				<h2>Single Week Pill Case</h2>
 				<p>Seven seperate compartments labelled for each day of the week</p>
 				<p>Price: $1.99</p>
-				<a href="#" class="buy-now-button">Buy Now</a>
 				<a class="buy-now-button" href="{% url 'cart:add_to_cart' product.id %}">Add to Cart</a>
 
 			</li>
@@ -81,7 +67,6 @@
 				<h2>Jergens Deep Restoring Argan Oil Lotion</h2>
 				<p>Smooth, restoring lotion with Argan oil for deep restoration of the skin</p>
 				<p>Price: $12.99</p>
-				<a href="#" class="buy-now-button">Buy Now</a>
 				<a class="buy-now-button" href="{% url 'cart:add_to_cart' product.id %}">Add to Cart</a>
 
 			</li>
@@ -90,7 +75,6 @@
 				<h2>White Out Liquid</h2>
 				<p>Erase any mistake with Liquid White Out</p>
 				<p>Price: $3.99</p>
-				<a href="#" class="buy-now-button">Buy Now</a>
 				<a class="buy-now-button" href="{% url 'cart:add_to_cart' product.id %}">Add to Cart</a>
 
 			</li>
@@ -99,7 +83,6 @@
 				<h2>Bic EZ Reach Lighter</h2>
 				<p>Light easier with our extended reach lighter by Bic</p>
 				<p>Price: $2.99</p>
-				<a href="#" class="buy-now-button">Buy Now</a>
 				<a class="buy-now-button" href="{% url 'cart:add_to_cart' product.id %}">Add to Cart</a>
 
 			</li>
@@ -108,7 +91,6 @@
 				<h2>Chapstick Cherry</h2>
 				<p>Cherry flavored Chapstick</p>
 				<p>Price: $0.99</p>
-				<a href="#" class="buy-now-button">Buy Now</a>
 				<a class="buy-now-button" href="{% url 'cart:add_to_cart' product.id %}">Add to Cart</a>
 
 			</li>
@@ -117,7 +99,6 @@
 				<h2>{{ product.name }}</h2>
 				<p>{{ product.description }}</p>
 				<p>Price: ${{ product.price }}</p>
-				<a href="#" class="buy-now-button">Buy Now</a>
 				<a class="buy-now-button" href="{% url 'cart:add_to_cart' product.id %}">Add to Cart</a>
 
 			</li>
@@ -126,7 +107,6 @@
 				<h2>{{ product.name }}</h2>
 				<p>{{ product.description }}</p>
 				<p>Price: ${{ product.price }}</p>
-				<a href="#" class="buy-now-button">Buy Now</a>
 				<a class="buy-now-button" href="{% url 'cart:add_to_cart' product.id %}">Add to Cart</a>
 
 			</li>
@@ -135,7 +115,6 @@
 				<h2>{{ product.name }}</h2>
 				<p>{{ product.description }}</p>
 				<p>Price: ${{ product.price }}</p>
-				<a href="#" class="buy-now-button">Buy Now</a>
 				<a class="buy-now-button" href="{% url 'cart:add_to_cart' product.id %}">Add to Cart</a>
 
 			</li>
@@ -144,7 +123,6 @@
 				<h2>{{ product.name }}</h2>
 				<p>{{ product.description }}</p>
 				<p>Price: ${{ product.price }}</p>
-				<a href="#" class="buy-now-button">Buy Now</a>
 				<a class="buy-now-button" href="{% url 'cart:add_to_cart' product.id %}">Add to Cart</a>
 
 			</li>
@@ -153,7 +131,6 @@
 				<h2>{{ product.name }}</h2>
 				<p>{{ product.description }}</p>
 				<p>Price: ${{ product.price }}</p>
-				<a href="#" class="buy-now-button">Buy Now</a>
 				<a class="buy-now-button" href="{% url 'cart:add_to_cart' product.id %}">Add to Cart</a>
 
 			</li>
