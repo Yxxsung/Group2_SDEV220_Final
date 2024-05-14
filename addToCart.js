@@ -24,6 +24,8 @@ function addToCart(item)
     selectedItem.append(img);
     selectedItem.append(title);
     selectedItem.append(label);
+    selectedItem.append(price);
+    selectedItem.append(description);
     selectedItem.append(delBtn);
     cartItems.append(selectedItem);
 }
