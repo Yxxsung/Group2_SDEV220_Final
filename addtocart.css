@@ -1,0 +1,14 @@
+button
+{
+    border: 2px solid #a29ae6;
+    background:#b7b1ec;
+    color: white;
+    font-weight: bold;
+    margin:20px;
+    padding: 5px 10px;
+}
+
+button:hover
+{
+    box-shadow: 0 0 5px 5px #a29ae6 inset;
+}
