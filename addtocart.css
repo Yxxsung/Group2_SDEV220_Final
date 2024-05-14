@@ -12,3 +12,14 @@ button:hover
 {
     box-shadow: 0 0 5px 5px #a29ae6 inset;
 }
+
+.cart
+{
+    width:250px;
+    float: right;
+    text-align: center;
+    border: 1px solid black;
+    overflow-y: scroll;
+    height: 100%;
+    
+}
