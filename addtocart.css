@@ -24,7 +24,7 @@ button:hover
 
 }
 
-.cartImg
+.cartImg > img
 {
     width: 200px
 }
